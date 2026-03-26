@@ -40,7 +40,7 @@ The application allows users to:
 <h1 align="center">🧩 UI Preview</h1>
 
 <p align="center">
-<img src="./Pokedex./public/page.png" alt="Pokemon Card" height="350" width="250"/>
+<img src="./public/page.png" alt="Pokemon Card" height="350" width="250"/>
 </p>
 
 ---
