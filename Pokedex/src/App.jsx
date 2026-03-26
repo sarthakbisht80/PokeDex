@@ -1,17 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import {pokemons} from "./data/data";
+import usePokemon from "./hooks/usePokemon";
 
-function App() {
-  const [count, setCount] = useState(0)
+import PokemonCard from "./components/PokemonCard";
+export default function App(){
 
-  return (
-    <>
+ let {current,next,prev,change,index,isFirst,isLast} = usePokemon(pokemons);
 
-    </>
-  )
+ return (
+  <div style={{textAlign:"center",marginTop:"40px"}}>
+
+   
+<PokemonCard/>
+ 
+
+  </div>
+ )
+
 }
-
-export default App
