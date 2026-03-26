@@ -1,6 +1,6 @@
 export const pokemons = [ 
 { 
-"name": "bulbasaur", 
+"name": "Bulbasaur", 
 "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON.", 
 "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png" }, 
 { 
